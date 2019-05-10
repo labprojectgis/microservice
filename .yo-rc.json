@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "appsFolders": [
+      "car-app",
+      "gateway-app"
+    ],
+    "directoryPath": "./",
+    "gatewayType": "zuul",
+    "monitoring": "no",
+    "serviceDiscoveryType": "eureka",
+    "jwtSecretKey": "NDhjNzM5NTc3OTkyZTUyMjA4NzkwNWVkNWM5MGU2YjZjODIyYzA3ZTIxZGY0N2M5ODgyMzcxMmUwZjQ4YjJjMDhkNmZiZjg2Yzg3Y2UyMTM5MGE3ODRiMzIyOTdlZDAwOWFmZTgyZjRmNmU0YzVjMjY5N2ZhZWVkNjJjYjU1ZGU=",
+    "promptValues": {
+      "packageName": "com.dealer"
+    },
+    "jhipsterVersion": "6.0.0",
+    "applicationType": "microservice",
+    "baseName": "dealerapp",
+    "packageName": "com.dealer",
+    "packageFolder": "com/dealer",
+    "serverPort": "8082",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
