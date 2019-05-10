@@ -1,0 +1,24 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "dealerapp",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "address",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20190510060408",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "no",
+    "entityTableName": "dealer",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no",
+    "microserviceName": "dealerapp"
+}
